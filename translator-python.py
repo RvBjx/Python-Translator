@@ -1,3 +1,7 @@
+'''
+This is the first version of my python translator
+Its a command prompt programm without gui but it works like those versions with gui
+'''
 import googletrans
 from googletrans import Translator, constants
 
