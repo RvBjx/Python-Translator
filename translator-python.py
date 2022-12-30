@@ -1,9 +1,9 @@
 '''
 Note:
 
-programm file is a .pyw to open it without visible command prompt if opened through python as an app from the microsoft store
+program file is a .pyw to open it without visible command prompt if opened through python as an app from the microsoft store
 important comments/descriptions are in green (made with quotation marks) and smaller comments are made with hashtag
-the front end of our programm is mostly held in german, although there might be english words in the export files since the language list from the googletrans library is in english
+the front end of our program is mostly held in german, although there might be english words in the export files since the language list from the googletrans library is in english
 '''
 
 'importing all the necessary librarys'
@@ -156,5 +156,5 @@ clear_button.grid(row=2, column=1,sticky='W')
 'calling on_closing function when closing programm'
 window.protocol("WM_DELETE_WINDOW", on_closing)
 
-'closing of our little programm with this line.'
+'closing of our little program with this line.'
 window.mainloop()
